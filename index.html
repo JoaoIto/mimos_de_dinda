@@ -1,21 +1,84 @@
 <!doctype html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./public/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/output.css">
     <title>@mimos_de_dinda_lacos</title>
 </head>
-<body>
-    <header>
-        <div class="flex" id="top">
-            <img height="30" width="50" src="./public/verificado.png" alt="Logo de verificado">
-            <h2>@mimos_de_dinda_lacos</h2>
-            <img height="30" width="50" src="./public/comprar.png" alt="logo de carrinho de compras">
+
+<body class="w-screen bg-pink-100">
+    <header class="flex items-center flex-col">
+        <div class="flex space-x-4 w-full justify-center py-2" id="top">
+            <img height="30" width="40" src="./public/verificado.png" alt="Logo de verificado">
+            <span class="text-2xl font-thin">@mimos_de_dinda_lacos</span>
+            <img height="30" width="40" src="./public/comprar.png" alt="logo de carrinho de compras">
+        </div>
+
+        <h2 class="text-6xl text-red-950 items-center justify-center">Feito com amor de mãe! ❤️</h2>
+        <button
+            class="h-[70px] w-[250px] self-center 
+            border boder-2 border-solid rounded 
+            bg-blue-300 border-blue-400 hover:bg-sky-700 hover:border-white hover:text-white 
+            duration-200 text-xl font-medium m-4">
+            Ver
+            produtos
+        </button>
+
+        <img src="./public/logo.png" alt="Logo da mimos">
+
+        <div class="w-2/3">
+            <h3 class="text-3xl text-center">Bem vindo(a)!!!</h3>
+            <p class="m-2 text-center">A Mimos de Dinda é um destino mágico onde a imaginação das crianças se encontra com a criatividade da
+                moda. Explore nossa coleção diversificada e descubra laços de tamanhos, estilos e temas variados,
+                projetados para atender a todas as personalidades e ocasiões. Desde laços clássicos e delicados até
+                opções temáticas divertidas, temos algo para todas as pequenas princesas.</p>
+                <img 
+                class="h-[120px] w-1/2 rounded-lg border-solid border-2 border-slate-400" 
+                src="./public/laco1.jpg" 
+                alt="Laco1"/>
         </div>
     </header>
+
+    <main class="h-screen">
+        <h3 class="text-3xl text-red-950 text-center my-4">Laços</h3>
+
+        <div class="flex w-full justify-evenly " id="containers">
+            <div class="w-1/4 text-center space-x-4 space-y-4 m-4" id="container">
+                <h4 class="text-2xl">Laço</h4>
+                <img 
+                class="h-[70px] w-1/2 rounded-lg border-solid border-2 border-slate-400" 
+                src="./public/laco1.jpg" 
+                alt="Laco1"/>
+                <span>Preço: R$35,00</span>
+            </div>
+
+            <div class="w-1/4 text-center space-x-4 space-y-4 m-4" id="container">
+                <h4 class="text-2xl">Laço</h4>
+                <img 
+                class="h-[70px] w-1/2 rounded-lg border-solid border-2 border-slate-400" 
+                src="./public/laco1.jpg" 
+                alt="Laco1"/>
+                <span>Preço: R$35,00</span>
+            </div>
+
+            <div class="w-1/4 text-center space-x-4 space-y-4 m-4" id="container">
+                <h4 class="text-2xl">Laço</h4>
+                <img 
+                class="h-[70px] w-1/2 rounded-lg border-solid border-2 border-slate-400" 
+                src="./public/laco1.jpg" 
+                alt="Laco1"/>
+                <span>Preço: R$35,00</span>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
